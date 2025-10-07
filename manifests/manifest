@@ -1,0 +1,105 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://yokoarteaga.github.io/test-autochrome-umbrella/manifests/manifest",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Yoko's DH Manifest" ]
+  },
+  "metadata" : [ {
+    "label" : {
+      "en" : [ "Author" ]
+    },
+    "value" : {
+      "en" : [ "unknown\n" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "" ]
+    },
+    "value" : {
+      "en" : [ "" ]
+    }
+  } ],
+  "requiredStatement" : {
+    "label" : {
+      "en" : [ "Attribution" ]
+    },
+    "value" : {
+      "en" : [ "Donated by x" ]
+    }
+  },
+  "items" : [ {
+    "id" : "https://example.org/e5vwmzsc4ie-mfavd9kf/canvas/kmaf1oryel-mfaveeeb",
+    "type" : "Canvas",
+    "height" : 2613,
+    "width" : 4658,
+    "label" : {
+      "en" : [ "Page 1" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://images.collections.yale.edu/iiif/2/ycba:209a98f4-dce8-4948-bade-79a9ab6eb848/full/291,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 163,
+      "width" : 291
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/e5vwmzsc4ie-mfavd9kf/canvas/kmaf1oryel-mfaveeeb/annotation-page/uz2u765gs4-mfaveeeb",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/e5vwmzsc4ie-mfavd9kf/annotation/0vqadefz3n4-mfaveeea",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/e5vwmzsc4ie-mfavd9kf/canvas/kmaf1oryel-mfaveeeb",
+        "body" : {
+          "id" : "https://images.collections.yale.edu/iiif/2/ycba:209a98f4-dce8-4948-bade-79a9ab6eb848/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 2613,
+          "width" : 4658,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://images.collections.yale.edu/iiif/2/ycba:209a98f4-dce8-4948-bade-79a9ab6eb848",
+            "height" : 2613,
+            "metadata" : {
+              "caption" : "recto, cropped to image",
+              "source" : "Yale Center for British Art",
+              "imageCredit" : "Digital Image: Yale Center for British Art"
+            },
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "sizeAboveFull", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "height" : 82,
+              "width" : 146
+            }, {
+              "height" : 163,
+              "width" : 291
+            }, {
+              "height" : 327,
+              "width" : 582
+            }, {
+              "height" : 653,
+              "width" : 1165
+            }, {
+              "height" : 1307,
+              "width" : 2329
+            }, {
+              "height" : 2613,
+              "width" : 4658
+            } ],
+            "tiles" : [ {
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16, 32 ],
+              "width" : 512
+            } ],
+            "width" : 4658
+          } ]
+        }
+      } ]
+    } ]
+  } ]
+}
