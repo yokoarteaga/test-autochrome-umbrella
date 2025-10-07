@@ -17,5 +17,11 @@
       "en" : [ "Yoko's DH Manifest" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://yokoarteaga.github.io/test-autochrome-umbrella/manifests/test",
+    "label" : {
+      "en" : [ "Yoko's DH Manifest" ]
+    },
+    "type" : "Manifest"
   } ]
 }
