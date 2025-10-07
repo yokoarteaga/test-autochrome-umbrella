@@ -1,0 +1,15 @@
+{
+  "id" : "https://yokoarteaga.github.io/test-autochrome-umbrella/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in yokoarteaga/test-autochrome-umbrella project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "id" : "https://yokoarteaga.github.io/test-autochrome-umbrella/manifests/manifest.json",
+    "label" : {
+      "en" : [ "Yoko's DH Manifest" ]
+    },
+    "type" : "Manifest"
+  } ]
+}
