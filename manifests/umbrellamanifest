@@ -1,0 +1,81 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://yokoarteaga.github.io/test-autochrome-umbrella/manifests/umbrellamanifest",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Test manifest - umbrella" ]
+  },
+  "items" : [ {
+    "id" : "https://example.org/pfpclfrvgeh-mggoqo2y/canvas/5fic9han6qe-mggotr2r",
+    "type" : "Canvas",
+    "height" : 9287,
+    "width" : 19417,
+    "label" : {
+      "en" : [ "test - original umbrella" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://iiif.archive.org/image/iiif/2/output_20251006%2foutput.jp2/full/303,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 145,
+      "width" : 303
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/pfpclfrvgeh-mggoqo2y/canvas/5fic9han6qe-mggotr2r/annotation-page/akmgnvsoe74-mggotr2r",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/pfpclfrvgeh-mggoqo2y/annotation/2ww7eeizmo6-mggotr2p",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/pfpclfrvgeh-mggoqo2y/canvas/5fic9han6qe-mggotr2r",
+        "body" : {
+          "id" : "https://iiif.archive.org/image/iiif/2/output_20251006%2foutput.jp2/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 9287,
+          "width" : 19417,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/image/iiif/2/output_20251006%2foutput.jp2",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 19417,
+            "height" : 9287,
+            "sizes" : [ {
+              "width" : 152,
+              "height" : 73
+            }, {
+              "width" : 303,
+              "height" : 145
+            }, {
+              "width" : 607,
+              "height" : 290
+            }, {
+              "width" : 1214,
+              "height" : 580
+            }, {
+              "width" : 2427,
+              "height" : 1161
+            }, {
+              "width" : 4854,
+              "height" : 2322
+            }, {
+              "width" : 9709,
+              "height" : 4644
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16, 32, 64, 128 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 100000000,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          } ]
+        }
+      } ]
+    } ]
+  } ]
+}
