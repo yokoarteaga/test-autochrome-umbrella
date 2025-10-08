@@ -29,5 +29,11 @@
       "en" : [ "Test manifest - umbrella" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://yokoarteaga.github.io/test-autochrome-umbrella/manifests/umbrellaManifestAll",
+    "label" : {
+      "en" : [ "Autochrome Umbrella Manifest" ]
+    },
+    "type" : "Manifest"
   } ]
 }
