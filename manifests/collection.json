@@ -47,5 +47,11 @@
       "en" : [ "Autochrome Umbrella Manifest" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://yokoarteaga.github.io/test-autochrome-umbrella/manifests/test-manifest",
+    "label" : {
+      "en" : [ "Blank Manifest" ]
+    },
+    "type" : "Manifest"
   } ]
 }
