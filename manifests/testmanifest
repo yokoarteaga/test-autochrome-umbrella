@@ -1,0 +1,106 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://yokoarteaga.github.io/test-autochrome-umbrella/manifests/testmanifest",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Blank Manifest" ]
+  },
+  "items" : [ {
+    "id" : "https://example.org/65cyr7i0y2t-mhkt319m/canvas/bf7nazn9lfd-mhktphqi",
+    "type" : "Canvas",
+    "height" : 9287,
+    "width" : 19417,
+    "label" : {
+      "en" : [ "Untitled canvas" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://iiif.archive.org/image/iiif/2/umbrella_restMos_lossy_12%2fumbrella_restMos_lossy_12.jp2/full/303,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 145,
+      "width" : 303
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/65cyr7i0y2t-mhkt319m/canvas/bf7nazn9lfd-mhktphqi/annotation-page/8s1s5u5pl6p-mhktphqi",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/65cyr7i0y2t-mhkt319m/annotation/im57ex3qtkh-mhktphqg",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/65cyr7i0y2t-mhkt319m/canvas/bf7nazn9lfd-mhktphqi",
+        "body" : {
+          "id" : "https://iiif.archive.org/image/iiif/2/umbrella_restMos_lossy_12%2fumbrella_restMos_lossy_12.jp2/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 9287,
+          "width" : 19417,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/image/iiif/2/umbrella_restMos_lossy_12%2fumbrella_restMos_lossy_12.jp2",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 19417,
+            "height" : 9287,
+            "sizes" : [ {
+              "width" : 152,
+              "height" : 73
+            }, {
+              "width" : 303,
+              "height" : 145
+            }, {
+              "width" : 607,
+              "height" : 290
+            }, {
+              "width" : 1214,
+              "height" : 580
+            }, {
+              "width" : 2427,
+              "height" : 1161
+            }, {
+              "width" : 4854,
+              "height" : 2322
+            }, {
+              "width" : 9709,
+              "height" : 4644
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16, 32, 64, 128 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 100000000,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/65cyr7i0y2t-mhkt319m/canvas/f4gupbt851-mhkts0pq",
+    "type" : "Canvas",
+    "height" : 1000,
+    "width" : 1000,
+    "label" : {
+      "en" : [ "Untitled canvas" ]
+    },
+    "items" : [ {
+      "id" : "https://example.org/65cyr7i0y2t-mhkt319m/canvas/f4gupbt851-mhkts0pq/annotation-page/66hxv3h3oec-mhkts0pq",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/65cyr7i0y2t-mhkt319m/annotation/emjgcri1zc-mhkts0no",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/65cyr7i0y2t-mhkt319m/canvas/f4gupbt851-mhkts0pq",
+        "body" : {
+          "id" : "https://milankr.folk.ntnu.no/umbrella_01.jp2",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1000,
+          "width" : 1000
+        }
+      } ]
+    } ]
+  } ]
+}
