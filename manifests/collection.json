@@ -59,5 +59,11 @@
       "en" : [ "Blank Manifest" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://yokoarteaga.github.io/test-autochrome-umbrella/manifests/finalmanifest.json",
+    "label" : {
+      "en" : [ "Autochrome Exhibition Manifest" ]
+    },
+    "type" : "Manifest"
   } ]
 }
